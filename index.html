@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 
     <script defer src="script.js"></script>
+    <script defer src="fungus.js"></script>
 </head>
 <body>
     <div class="container">
@@ -17,10 +18,10 @@
         <div class="attacks">
             <div class="ap-text">100 AP</div>
             <progress id="ap-meter" value="100" max="100"></progress>
-            <button class="attack-btn arcane-scepter"></button>
-            <button class="attack-btn entangle"></button>
-            <button class="attack-btn dragon-blade"></button>
-            <button class="attack-btn star-fire"></button>
+            <button class="attack-btn arcane-scepter" onClick="attackArcane()"></button>
+            <button class="attack-btn entangle" onClick="attackEntangle()"></button>
+            <button class="attack-btn dragon-blade" onClick="attackDragon()"></button>
+            <button class="attack-btn star-fire" onClick="attackStar()"></button>
         </div>
 
         <div class="enemy">
